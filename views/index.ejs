@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload GLB Model</title>
+</head>
+<body>
+    <h1>Upload GLB Model and File</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="model">Model (GLB File):</label>
+        <input type="file" id="model" name="model" accept=".glb" required><br><br>
+        
+        <!-- <label for="otherFile">Other File:</label>
+        <input type="file" id="otherFile" name="otherFile" required><br><br> -->
+        
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
